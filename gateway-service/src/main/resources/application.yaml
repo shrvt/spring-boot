@@ -1,0 +1,30 @@
+server:
+  port: 8060
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://127.0.0.1:8061/eureka/"
+
+spring:
+  application:
+    name: gateway-service
+  config:
+    import: "optional:configserver:http://localhost:8080"
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: student-service
+            uri: lb://student-service
+            predicates:
+              - Path=/student/**
+          - id: company-service
+            uri: lb://company-service
+            predicates:
+              - Path=/company/**

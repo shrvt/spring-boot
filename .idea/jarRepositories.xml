@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="adobe-public-releases" />
+      <option name="name" value="Adobe Public Repository" />
+      <option name="url" value="https://oto-ci.bmwgroup.net/nexus/repository/miniweb-repositories" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-milestones" />
+      <option name="name" value="Spring Milestones" />
+      <option name="url" value="https://oto-ci.bmwgroup.net/nexus/repository/miniweb-repositories" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ATC-Nexus_MINIWEB" />
+      <option name="name" value="ATC-Nexus MINIWEB" />
+      <option name="url" value="https://oto-ci.bmwgroup.net/nexus/repository/miniweb-repositories" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://oto-ci.bmwgroup.net/nexus/repository/miniweb-repositories" />
+    </remote-repository>
+  </component>
+</project>
